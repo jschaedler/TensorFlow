@@ -4,7 +4,7 @@ import tensorflow as tf
 # tf.logging.set_verbosity(tf.logging.ERROR)
 
 
-celsius_q = np.array([-40, -10, 0, 8, 15, 22, 38])
+celsius_q = np.array([-40, -10, 0, 4, 8, 15, 22, 38])
 fahrenheit_a = np.array([-40, 14, 32, 46, 59, 72, 100])
 
 for i, c in enumerate(celsius_q):
